@@ -1,0 +1,88 @@
+.order-history {
+    padding: 20px; /* Padding around the container */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.title {
+    font-size: 2rem; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Centered title */
+    color: #2c3e50; /* Darker color for title */
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column; /* Arrange orders in a column */
+}
+
+.order-item {
+    padding: 15px; /* Padding for each order item */
+    margin: 10px 0; /* Margin between order items */
+    background-color: #fff; /* White background for each order item */
+    border: 1px solid #ccc; /* Light border for separation */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor indicates clickable item */
+    transition: background-color 0.3s; /* Smooth background transition */
+    position: relative; /* For pseudo-element positioning */
+}
+
+.order-item:hover {
+    background-color: #e9ecef; /* Light gray background on hover */
+}
+
+.order-item::before {
+    content: ""; /* Create a pseudo-element for the colorful bar */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 8px; /* Width of the colorful bar */
+    background-color: #3498db; /* Blue color for the bar */
+    border-top-left-radius: 5px; /* Rounded corner */
+    border-bottom-left-radius: 5px; /* Rounded corner */
+}
+
+.order-number, .order-status, .order-total {
+    margin: 0; /* Reset default margin */
+    color: #34495e; /* Darker text color for better readability */
+}
+
+.order-status {
+    font-weight: bold; /* Bold for status */
+    color: #27ae60; /* Green color for status */
+}
+
+.order-details {
+    margin-top: 20px; /* Space above order details */
+    background-color: #fff; /* White background for order details */
+    padding: 15px; /* Padding for order details */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.details-title, .details-status, .details-restaurant {
+    margin: 5px 0; /* Space between details */
+    color: #2c3e50; /* Darker text color */
+}
+
+.items-title {
+    margin-top: 10px; /* Space above items title */
+    font-weight: bold; /* Bold for items title */
+    color: #2980b9; /* Blue color for items title */
+}
+
+.items-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.item {
+    margin: 5px 0; /* Space between items */
+    padding: 5px; /* Padding for items */
+    background-color: #ecf0f1; /* Light gray background for items */
+    border-radius: 4px; /* Rounded corners */
+    color: #2c3e50; /* Darker text color for items */
+}

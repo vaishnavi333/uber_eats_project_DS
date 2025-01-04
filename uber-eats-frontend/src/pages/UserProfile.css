@@ -1,0 +1,45 @@
+.user-profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Light background */
+    padding: 20px;
+}
+
+.user-profile-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px; /* Set a max width for the form */
+}
+
+.user-profile-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-profile-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da; /* Light border */
+}
+
+.user-profile-form .form-label {
+    font-weight: bold;
+}
+
+.user-profile-form .profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-profile-form .profile-picture img {
+    width: 150px; /* Set a specific size for profile image */
+    height: 150px;
+}
+
+.user-profile-form button {
+    width: 100%;
+}

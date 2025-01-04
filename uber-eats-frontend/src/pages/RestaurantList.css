@@ -1,0 +1,37 @@
+.restaurant-list {
+    padding: 20px; /* Add padding to the main container */
+}
+
+.ad-carousel {
+    height: 300px; /* Set height for the carousel */
+    overflow: hidden; /* Hide overflow */
+}
+
+.carousel-item img {
+    border-radius: 8px; /* Rounded corners for carousel images */
+    height: 100%; /* Ensure the image fills the carousel */
+    object-fit: cover; /* Cover the entire carousel area */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better readability */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Round corners for caption */
+}
+
+.restaurants-title {
+    margin-top: 20px; /* Margin above the title */
+    font-size: 24px; /* Larger font for title */
+    color: #23B500; /* Uber Eats green color */
+}
+
+/* Styles for Restaurant Cards */
+.restaurant-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for elevation */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.restaurant-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}

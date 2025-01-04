@@ -1,0 +1,26 @@
+.dashboard-container {
+    text-align: center; /* Center align the content */
+    padding: 40px; /* Add some padding */
+    background-color: #f8f9fa; /* Light background for the dashboard */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .button-group {
+    display: flex; /* Use flexbox for button layout */
+    justify-content: center; /* Center the buttons */
+    margin-top: 20px; /* Space above the button group */
+  }
+  
+  .dashboard-button {
+    margin: 0 10px; /* Space between buttons */
+    padding: 10px 20px; /* Add padding for buttons */
+    font-size: 16px; /* Increase font size */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .dashboard-button:hover {
+    opacity: 0.9; /* Slightly fade on hover */
+  }
+  

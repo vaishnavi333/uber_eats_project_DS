@@ -1,0 +1,18 @@
+.order-placement-container {
+    max-width: 600px; /* Limit the max width for better readability */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Add padding */
+}
+
+.cart-item {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0; /* Add a border for separation */
+}
+
+.cart-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+h2 {
+    color: #23B500; /* Uber Eats green */
+}

@@ -1,0 +1,58 @@
+.custom-navbar {
+    background-color: #f8f9fa; /* Light background */
+    padding: 10px 20px; /* Padding for navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-brand {
+    font-size: 24px; /* Larger font for brand */
+    font-weight: bold; /* Bold text */
+    color: #23B500 !important; /* Uber Eats green */
+}
+
+.nav-link {
+    color: #343A40 !important; /* Dark text for contrast */
+    padding: 10px 15px; /* Spacing for nav links */
+    transition: color 0.3s; /* Transition effect */
+}
+
+.nav-link:hover {
+    color: #23B500 !important; /* Green on hover */
+    background-color: #E0F8E0; /* Light green background on hover */
+    border-radius: 4px; /* Rounded corners for hover effect */
+}
+
+.nav-link.active {
+    font-weight: bold; /* Highlight active link */
+    color: #23B500 !important; /* Keep active link green */
+}
+
+@media (max-width: 768px) {
+    .custom-navbar {
+        padding: 5px; /* Adjust padding for mobile */
+    }
+}
+
+/* Additional styles for the cart icon */
+.cart-icon {
+    position: relative; /* Ensure the count is positioned relative to the icon */
+    display: flex; /* Use flex to align items */
+    align-items: center; /* Center vertically */
+}
+
+.cart-count {
+    background-color: red; /* Background color for visibility */
+    color: white; /* Text color */
+    border-radius: 50%; /* Makes it circular */
+    padding: 0.2em 0.5em; /* Some padding for aesthetics */
+    position: absolute; /* Positioning */
+    top: -5px; /* Adjust vertical position */
+    right: -10px; /* Adjust horizontal position */
+    font-size: 0.75em; /* Smaller font size */
+    line-height: 1; /* Center the text vertically */
+    min-width: 20px; /* Minimum width for the badge */
+    height: 20px; /* Fixed height for consistency */
+    display: flex; /* Center the text */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+}

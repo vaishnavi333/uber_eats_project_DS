@@ -1,0 +1,13 @@
+
+.back-home-btn {
+  background-color: #343a40 !important;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.back-home-btn:hover {
+  background-color: #495057 !important;
+  color: white !important;
+}

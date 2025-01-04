@@ -1,0 +1,61 @@
+.restaurant-details {
+    padding: 20px; /* Padding around the container */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.restaurant-name {
+    font-size: 2rem; /* Larger font size for restaurant name */
+    color: #333; /* Darker text color */
+    text-align: center; /* Center the name */
+}
+
+.restaurant-description {
+    font-size: 1.1rem; /* Slightly larger description */
+    margin-bottom: 15px; /* Space below the description */
+}
+
+.menu-title {
+    font-size: 1.5rem; /* Menu title size */
+    color: #555; /* Gray color for the menu title */
+}
+
+.dish-card {
+    transition: transform 0.2s; /* Animation on hover */
+}
+
+.dish-image {
+    max-height: 200px;
+    width: auto;
+    
+}
+.dish-card:hover {
+    transform: scale(1.03); /* Slightly scale up on hover */
+}
+
+.dish-name {
+    font-weight: bold; /* Bold dish name */
+}
+
+.dish-description {
+    font-size: 0.9rem; /* Smaller font size for descriptions */
+    color: #666; /* Gray color for descriptions */
+}
+
+.dietary-restrictions {
+    margin-top: 5px; /* Space above dietary restrictions */
+}
+
+.badge {
+    font-size: 0.8rem; /* Smaller font size for badges */
+    padding: 5px 8px; /* Padding for badges */
+}
+
+.modal-body {
+    font-size: 1rem; /* Font size for modal body */
+}
+
+.modal-title {
+    font-weight: bold; /* Bold title in the modal */
+}
